@@ -24,7 +24,7 @@ local_css("style/style.css")
 
 # ---- LOAD ASSETS ----
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
-stream_flow = Image.open("images/stream flow.png")
+stream_flow = Image.open("images/stream flow.jpg")
 
 
 
