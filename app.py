@@ -69,7 +69,7 @@ with st.container():
     with image_column:
         st.image(stream_flow)
     with text_column:
-        st.subheader("Hydrologic- Data Exploration")
+        st.subheader("Hydrologic - Data Exploration")
         st.write(
             """
              The goal of data exploration is to learn about characteristics and potential problems of a data set without the need to formulate assumptions about the data beforehand.
