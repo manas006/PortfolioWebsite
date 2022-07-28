@@ -24,7 +24,7 @@ local_css("style/style.css")
 
 # ---- LOAD ASSETS ----
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
-img_gis_analysis = Image.open("images/gis.png")
+stream_flow = Image.open("images/stream flow.png")
 
 
 
@@ -67,17 +67,15 @@ with st.container():
     st.write("##")
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(img_gis_analysis)
+        st.image(stream_flow)
     with text_column:
-        st.subheader("GEO-STATISTICAL ANALYSIS OF INDIAN RIVER BASINS: USING MAP CORRELATION METHOD")
+        st.subheader("Hydrologic- Data Exploration")
         st.write(
             """
-             It introduces the map correlation method, a
-             method to estimate the correlation in daily streamflow
-             between a streamgage and an ungaged location.
+             The goal of data exploration is to learn about characteristics and potential problems of a data set without the need to formulate assumptions about the data beforehand.
             """
         )
-        st.markdown("[Click here...]()")
+        st.markdown("[Click here...](https://github.com/manas006/PortfolioProjects/blob/main/Hydrologic%20Portfolio%20Project%20-%20Data%20Exploration.sql)")
 
 # ---- CONTACT ----
 with st.container():
