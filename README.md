@@ -18,7 +18,7 @@ Lists of Projects:
 
     -   *Is the available data sufficient and suitable to achieve the project goals?*
 
-    -   \*Do we know enough about the causes of anomalies, trends, gaps, etc.?
+    -   Do we know enough about the causes of anomalies, trends, gaps, etc.?
 
 
 -   **Challenges** faced during hydrological observations:
